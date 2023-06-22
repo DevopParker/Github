@@ -97,17 +97,21 @@ Github README.md files use the markup language
 [Github Docs on using Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 git remote
+
 git remote get-url origin
+
 git remote add origin <url of repository> 
 - origin will be the name of the local repository but you can use any name.
 
 git push origin master
+
 git push origin <branch name>
 
 git remote set-url origin <https://username@url>
 - You can generate a token through GitHub to use as a password for the git remote set-url
 
 git push --set-upstream origin master
+
 git push
 
 - Running the --set-upstream command will allow you to just use 'git push' as an easier method to push your repository to GitHub
