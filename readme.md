@@ -121,4 +121,4 @@ git pull
 ## Working with repositories that are not your own
 
 git clone <url> <name>
-- If you don't use the <name> flag it will create the file with the repository name
+- If you don't use the <name> flag it will use the current repository name
