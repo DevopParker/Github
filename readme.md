@@ -56,3 +56,17 @@
     git checkout <id>
     git revert <id>
     git reset <id>
+
+    Understand Git Branches:
+    As you work on a project you start collecting commits, these commits are organized in branches.
+    Your first initialization becomes the "master" branch, it is what you see when you run: git log
+    
+    git branch <name>
+    - Creates a new branch from the latest commit from the master branch
+
+    Further commits on the master branch will not affect the new branch, as well as the new branches commits will not affect the master branch.
+    This allows teams to work on bug fixes or new features without interfering with eachother.
+
+    git merge <name>
+    - All the commits of the <name> branch will be merged with the commits of the master branch, 
+    Git will automatically attempt to commit those changes such that nothing is overwritten, if you have     clashing code you may have to manually fix this issue.
