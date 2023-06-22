@@ -117,8 +117,9 @@ git push
 git pull
 - Fetch from and integrate with another repository or a local branch
 - Incorporates changes from a remote repository into the current branch. If the current branch is behind the remote, then by default it will fast-forward the current branch to match the remote
+- [Git pull documentation](https://git-scm.com/docs/git-pull)
 
 ## Working with repositories that are not your own
 
 git clone <url> <name>
-- If you don't use the <name> flag it will use the current repository name
+- [Get clone documentation](https://git-scm.com/docs/git-clone)
