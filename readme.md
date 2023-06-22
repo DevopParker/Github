@@ -70,3 +70,10 @@
     git merge <name>
     - All the commits of the <name> branch will be merged with the commits of the master branch, 
     Git will automatically attempt to commit those changes such that nothing is overwritten, if you have     clashing code you may have to manually fix this issue.
+
+    git branch
+    - List all existing branches, the highlighted and branch with the asterisk shows which branch you are currently working on.
+
+    git checkout <branch name>
+    - Git checkout can also be used to switch branches, as well as using a commit <id>
+
