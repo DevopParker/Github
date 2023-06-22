@@ -1,4 +1,4 @@
-#Git & Github Crash course:
+# Git & Github Crash course:
 
 git init
 - Create and initialize a git repository (only required once for any given project)
@@ -47,7 +47,7 @@ git reset --hard <id>
 
 To exclude files from being added and commited to any repository, create a .gitignore file and type the name of the file or folder you want to be excluded from all future add & commits.
 
-#Key Commands to Know:
+# Key Commands to Know:
     git init
     git add <file(s)>
     git commit -m "..."
@@ -87,7 +87,9 @@ git merge <branch name>
 - Append all commits up to the lastest commit in the <branch name>
 - Not all merges require a message, it depends on the conflicts that are resolved.
 
-#Git with GitHub:
+# Git with GitHub:
+Github README.md files use the markup language 
+[Github Docs on using Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 git remote add origin <url of repository> 
 - origin will be the name of the local repository but you can use any name.
