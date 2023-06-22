@@ -48,14 +48,14 @@
     To exclude files from being added and commited to any repository, create a .gitignore file and type the name of the file or folder you want to be excluded from all future add & commits.
 
     #Key Commands to Know:
-    git init
-    git add <file(s)>
-    git commit -m "..."
-    git status
-    git log
-    git checkout <id>
-    git revert <id>
-    git reset <id>
+        git init
+        git add <file(s)>
+        git commit -m "..."
+        git status
+        git log
+        git checkout <id>
+        git revert <id>
+        git reset <id>
 
     Understand Git Branches:
     As you work on a project you start collecting commits, these commits are organized in branches.
@@ -85,3 +85,4 @@
 
     git merge <branch name>
     - Append all commits up to the lastest commit in the <branch name>
+    - Not all merges require a message, it depends on the conflicts that are resolved.
