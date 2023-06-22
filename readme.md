@@ -103,5 +103,6 @@ git push
 
 - Running the --set-upstream command will allow you to just use 'git push' as an easier method to push your repository to GitHub
 - You can also push seperate branches to commit to GitHub and work on them separately
+- After merging a branch to the master branch, you can push the merge directly to github without the need to make any add or commits because github will append all of the commits together in the master branch.
 
 git pull
