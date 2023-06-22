@@ -108,3 +108,5 @@ git push
 - After merging a branch to the master branch, you can push the merge directly to github without the need to make any add or commits because github will append all of the commits together in the master branch.
 
 git pull
+- Fetch from and integrate with another repository or a local branch
+- Incorporates changes from a remote repository into the current branch. If the current branch is behind the remote, then by default it will fast-forward the current branch to match the remote
