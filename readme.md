@@ -82,3 +82,6 @@
 
     git checkout -b <branch name>
     - The -b flag allows you to create and move into the new <branch name>
+
+    git merge <branch name>
+    - Append all commits up to the lastest commit in the <branch name>
