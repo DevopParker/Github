@@ -87,6 +87,7 @@ git branch -D <branch name>
 
 git checkout -b <branch name>
 - The -b flag allows you to create and move into the new <branch name>
+- You can create a new branch after making changes to master and add them to the new branch as long as you didn't add or commit them to the main.
 
 git merge <branch name>
 - Append all commits up to the lastest commit in the <branch name>
