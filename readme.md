@@ -1,6 +1,6 @@
 # Git & Github Crash course:
 
-git config --global user.name "Name"
+git config --global user.name "Name" \
 git config --global user.email "Email"
 - These two commands can setup your git on your local machine
 - You can also setup your git config for a single repository by removing the --global flag
