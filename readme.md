@@ -32,12 +32,12 @@ git checkout <id>
 - Allows you to temporarily move to another commit, the other commits that come after the current commit won't be affected.
 - HEAD->master points to the current branch that is loaded
 
-    Example:
-        git checkout a76a0109a88c6c1f59f9af0f0a53bd8f131f7c4d
-        - This is the inital commit of this project
-        
-        git checkout master 
-        - moves back to the master branch
+Example:\
+git checkout a76a0109a88c6c1f59f9af0f0a53bd8f131f7c4d
+- This is the inital commit ID of this project
+
+git checkout master 
+- moves back to the master branch
 
 git revert <id>
 - Reverts to the given commit id, this creates a new commit and doesn't delete the old ones
