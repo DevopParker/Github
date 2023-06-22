@@ -77,3 +77,8 @@
     git checkout <branch name>
     - Git checkout can also be used to switch branches, as well as using a commit <id>
 
+    git branch -D <branch name>
+    - Removes the branch listed
+
+    git checkout -b <branch name>
+    - The -b flag allows you to create and move into the new <branch name>
