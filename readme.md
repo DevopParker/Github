@@ -98,4 +98,8 @@ git remote set-url origin <https://username@url>
 - You can generate a token through GitHub to use as a password for the git remote set-url
 
 git push --set-upstream origin master
+git push
+
+- Running the --set-upstream command will allow you to just use 'git push' as an easier method to push your repository to GitHub
+
 git pull
