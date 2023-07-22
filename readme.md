@@ -5,6 +5,10 @@ git config --global user.email "Email"
 - These two commands can setup your git on your local machine
 - You can also setup your git config for a single repository by removing the --global flag
 
+The best way to setup and use your github account for development on a new computer is through a personal access token.
+- Account -> Settings -> <> Developer Settings
+- Create a personal access token (default) and then use that token as your password when cloning your repository.
+
 git init
 - Create and initialize a git repository (only required once for any given project)
 - A repository is a folder used by Git to track all changes of a given project
