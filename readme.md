@@ -4,6 +4,7 @@ git config --global user.name "Name" \
 git config --global user.email "Email"
 - These two commands can setup your git on your local machine
 - You can also setup your git config for a single repository by removing the --global flag
+- When using the user.email make sure to grab the one on github that is secret.
 
 Setup SSH Key for remote access:
 - [Githhub Doc to generate SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
