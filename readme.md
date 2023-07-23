@@ -5,10 +5,10 @@ git config --global user.email "Email"
 - These two commands can setup your git on your local machine
 - You can also setup your git config for a single repository by removing the --global flag
 
-After setting up your git config username and email, to remotely clone repositorys via ssh you need an ssh key
+Setup SSH Key for remote access:
 - [Githhub Doc to generate SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-Step #1:
+Step #1 setup a key on the local machine:
 - ssh-keygen -t ed25519 -C "your_email@example.com"
 - This command will run through a script to generate an ssh key on your local machine you are currently using.
 
