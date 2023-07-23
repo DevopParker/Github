@@ -8,6 +8,7 @@ git config --global user.email "Email"
 The best way to setup and use your github account for development on a new computer is through a personal access token.
 - Account -> Settings -> <> Developer Settings
 - Create a personal access token (default) and then use that token as your password when cloning your repository.
+- Testing
 
 git init
 - Create and initialize a git repository (only required once for any given project)
