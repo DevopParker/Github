@@ -1,4 +1,5 @@
 # Git & Github Crash course:
+https://education.github.com/git-cheat-sheet-education.pdf
 
 git config --global user.name "Name" \
 git config --global user.email "Email"
